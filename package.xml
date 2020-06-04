@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>dynamic-graph</name>
+  <version>4.1.2</version>
+  <description>
+    Dynamic graph library
+  </description>
+  <maintainer email="ostasse@laas.fr">Olivier Stasse</maintainer>
+  <license>BSD</license>
+
+  <url>http://github.com/stack-of-tasks/dynamic-graph</url>
+  <author>Nicolas Mansard</author>
+  <author>Olivier Stasse</author>
+
+
+  <build_depend>git</build_depend>
+  <build_depend>doxygen</build_depend>
+  <doc_depend>doxygen</doc_depend>
+  <depend>eigen</depend>
+  <depend>boost</depend>
+  <depend>graphviz</depend>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
